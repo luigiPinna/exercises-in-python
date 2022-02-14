@@ -36,5 +36,5 @@ for index in range(0, 3):
         user_result = int(input(f"Quanto fa {n} per {m} ?"))
         if correct_result == user_result:
             count = count + 1
-            
+
 print(f"Le risposte corrette sono: {count}")
